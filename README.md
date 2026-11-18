@@ -25,8 +25,17 @@
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="./profile/snake.svg" alt="Snake" />
-  <img src="./profile/candles.svg" alt="Candles" />
+  <img src="./profile/icons/csharp.svg" alt="C#" width="36" height="36" />
+  <img src="./profile/icons/dotnetcore.svg" alt=".NET Core" width="36" height="36" />
+  <img src="./profile/icons/python.svg" alt="Python" width="36" height="36" />
+  <img src="./profile/icons/fastapi.svg" alt="FastAPI" width="36" height="36" />
+  <img src="./profile/icons/typescript.svg" alt="TypeScript" width="36" height="36" />
+  <img src="./profile/icons/react.svg" alt="React" width="36" height="36" />
+  <img src="./profile/icons/vitejs.svg" alt="Vite" width="36" height="36" />
+  <img src="./profile/icons/tailwindcss.svg" alt="Tailwind" width="36" height="36" />
+  <img src="./profile/icons/postgresql.svg" alt="PostgreSQL" width="36" height="36" />
+  <img src="./profile/icons/redis.svg" alt="Redis" width="36" height="36" />
+  <img src="./profile/icons/docker.svg" alt="Docker" width="36" height="36" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 

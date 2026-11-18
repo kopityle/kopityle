@@ -40,7 +40,7 @@ jobs:
           EOF
 
           for icon in csharp dotnetcore python fastapi typescript react vitejs tailwindcss postgresql redis docker; do
-            curl -fsSL -o profile/icons/${icon}.svg "https://raw.githubusercontent.com/kopityle/kopityle/main/profile/icons/${icon}.svg" || echo "Failed to download ${icon}"
+            curl -fsSL -o profile/icons/${icon}.svg "https://githubusercontent.com{icon}/${icon}-original.svg"
           done
 
       - name: Generate snake SVG
