@@ -41,22 +41,21 @@
 </p>
 
 <details>
-  <summary><b>$ cat ./full-stack.json</b></summary>
+<summary><b>$ cat ./full-stack.json</b></summary>
 
 ```json
 {
-  "languages": ["C#", ".NET 8", "Python", "FastAPI", "React"],
-  "frameworks": ["MassTransit", "SignalR"],
-  "tools": ["Docker", "Kubernetes", "Git"],
-  "databases": ["PostgreSQL", "Redis"],
-  "platform": "1C:Enterprise"
+  "languages": ["C#", ".NET 8", "Python", "TypeScript", "JavaScript", "SQL", "1C (BSL)"],
+  "frameworks": ["ASP.NET Core", "FastAPI", "Flask", "React 18", "MassTransit"],
+  "ai_rag": ["Ollama", "ChromaDB", "Hybrid Search", "PyMuPDF"],
+  "databases": ["PostgreSQL", "Redis", "SQLite"],
+  "tools": ["Docker", "Git", "GitHub Actions", "Zed", "OpenCode"]
 }
+```
+
 </details>
 
 <p align="center">
-  <img src="./profile/snake.svg" />
+  <img src="./profile/snake.svg" alt="Snake animation" />
 </p>
 
-<p align="center">
-  <img src="./vercel.app" alt="Top Languages" />
-</p>
