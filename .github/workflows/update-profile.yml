@@ -39,9 +39,9 @@ jobs:
           </svg>
           EOF
 
-          BASE="https://://githubusercontent.com"
+          BASE="https://githubusercontent.com"
           for icon in csharp dotnetcore python fastapi typescript react vitejs tailwindcss postgresql redis docker; do
-            curl -fsSL "$BASE/$icon/$icon-original.svg" -o "profile/icons/$icon.svg" || true
+            curl -fsSL "$BASE/$icon/$icon-original.svg" -o "profile/icons/$icon.svg"
           done
 
       - name: Generate snake SVG
