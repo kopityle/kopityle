@@ -1,8 +1,8 @@
-<div align="center"><img src="./profile/banner.svg" /></div>
+<div align="center"><img src="./profile/typing.svg" /></div>
 
 ### `$ cat ./about.md`
 
-Разрабатываю бэкенд-сервисы, микросервисную архитектуру, веб-приложения и локальные RAG-системы. Люблю разбираться, как всё устроено под капотом, автоматизировать рутину через CLI и настраивать рабочее окружение под себя.
+Разрабатываю бэкенд-сервисы, микросервисную архитектуру, веб-приложения и локальные RAG-системы. Люблю разбираться, как устроено под капотом, автоматизировать рутину через CLI и настраивать рабочее окружение под себя.
 
 - **Среда и инструменты:** `Zed` · `OpenCode` · `Git` · `Docker`
 - **Фокус:** микросервисы, архитектура API, интеграция LLM, поиск по документам (RAG) и современные веб-интерфейсы
@@ -25,7 +25,17 @@
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="./profile/skills.svg" alt="Skills" />
+  <img src="./profile/icons/csharp.svg" alt="C#" />
+  <img src="./profile/icons/dotnetcore.svg" alt=".NET Core" />
+  <img src="./profile/icons/python.svg" alt="Python" />
+  <img src="./profile/icons/fastapi.svg" alt="FastAPI" />
+  <img src="./profile/icons/typescript.svg" alt="TypeScript" />
+  <img src="./profile/icons/react.svg" alt="React" />
+  <img src="./profile/icons/vitejs.svg" alt="Vite" />
+  <img src="./profile/icons/tailwindcss.svg" alt="Tailwind" />
+  <img src="./profile/icons/postgresql.svg" alt="PostgreSQL" />
+  <img src="./profile/icons/redis.svg" alt="Redis" />
+  <img src="./profile/icons/docker.svg" alt="Docker" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
