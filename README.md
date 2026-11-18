@@ -13,7 +13,7 @@
 
 | Проект | Описание | Стек |
 | :--- | :--- | :--- |
-| **[HabitForge](https://github.com/HabitForge)** | Микросервисная платформа отслеживания привычек с распределёнными семафорами и событиями | `C#` `.NET 8` `Redis` `MassTransit` |
+| **[HabitForge](https://github.com/kopityle/HabitForge)** | Микросервисная платформа отслеживания привычек с распределёнными семафорами и событиями | `C#` `.NET 8` `Redis` `MassTransit` |
 | **[JustAsk](https://github.com/JustAsk)** | Локальный ИИ-наставник по учебному курсу с гибридным поиском и цитированием источников (LTI 1.1 / Moodle) | `Python` `FastAPI` `Ollama` `ChromaDB` |
 | **[LunaTracker](https://github.com/LunaTracker)** | Приложение для трекинга цикла с аналитикой фаз и ИИ-рекомендациями | `TypeScript` `React 18` `Vite` `Tailwind` |
 | **[conundrum_react](https://github.com)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
