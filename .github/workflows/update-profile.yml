@@ -40,7 +40,7 @@ jobs:
           EOF
 
           for icon in csharp dotnetcore python fastapi typescript react vitejs tailwindcss postgresql redis docker; do
-            curl -fsSL -o profile/icons/${icon}.svg "https://githubusercontent.com/kopityle/${icon}.svg"
+            curl -fsSL -o profile/icons/${icon}.svg "https://raw.githubusercontent.com/kopityle/kopityle/main/profile/icons/${icon}.svg" || echo "Failed to download ${icon}"
           done
 
       - name: Generate snake SVG
@@ -52,8 +52,6 @@ jobs:
       - name: Generate candles SVG
         uses: b1337xyz/github-candles@main
         continue-on-error: true
-        run: |
-          || true
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1

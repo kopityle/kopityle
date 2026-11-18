@@ -25,8 +25,8 @@
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="./profile/badges/snake.svg" alt="Snake" />
-  <img src="./profile/badges/candles.svg" alt="Candles" />
+  <img src="./profile/snake.svg" alt="Snake" />
+  <img src="./profile/candles.svg" alt="Candles" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
