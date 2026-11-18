@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="45" viewBox="0 0 680 45">
+  <style>
+    .text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 20px; font-weight: 700; fill: #58a6ff; }
+    .line { opacity: 0; animation: cycle 12s infinite; }
+    .l1 { animation-delay: 0s; }
+    .l2 { animation-delay: 4s; }
+    .l3 { animation-delay: 8s; }
+    @keyframes cycle {
+      0% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      8% { opacity: 1; clip-path: inset(0 0 0 0); }
+      25% { opacity: 1; clip-path: inset(0 0 0 0); }
+      33% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; }
+    }
+  </style>
+  <text x="50%" y="30" text-anchor="middle" class="text line l1">> whoami: Виктория Пестова · Backend & Fullstack</text>
+  <text x="50%" y="30" text-anchor="middle" class="text line l2">> stack: C# · .NET 8 · Python · FastAPI · React</text>
+  <text x="50%" y="30" text-anchor="middle" class="text line l3">> focus: Microservices · Local RAG · 1C DevTools</text>
+</svg>
