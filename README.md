@@ -18,6 +18,7 @@
 | **[LunaTracker](https://github.com/kopityle/LunaTracker)** | Приложение для трекинга цикла с аналитикой фаз и ИИ-рекомендациями | `TypeScript` `React 18` `Vite` `Tailwind` |
 | **[conundrum_react](https://github.com/progrjava/conundrum_react)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
 | **[neomarket](https://github.com/kopityle/neomarket)** | Микросервисный маркетплейс на Python | `Python` `FastAPI` `Microservices` |
+| **[1c-pharmacy-accounting](https://github.com/kopityle/1c-pharmacy-accounting)** | Система учёта в аптеке на 1С:Предприятие 8.3 с подбором аналогов, контролем рецептов и анализом продаж | `1C` `BSL` |
 | **[1c-code-console](https://github.com/kopityle/1c-code-console)** | Двухрежимная консоль кода 1С/BSL | `Bash` `1C` `BSL` |
 
 ---
