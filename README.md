@@ -25,18 +25,26 @@
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="./profile/icons/csharp.svg" alt="C#" />
-  <img src="./profile/icons/dotnetcore.svg" alt=".NET Core" />
-  <img src="./profile/icons/python.svg" alt="Python" />
-  <img src="./profile/icons/fastapi.svg" alt="FastAPI" />
-  <img src="./profile/icons/typescript.svg" alt="TypeScript" />
-  <img src="./profile/icons/react.svg" alt="React" />
-  <img src="./profile/icons/vitejs.svg" alt="Vite" />
-  <img src="./profile/icons/tailwindcss.svg" alt="Tailwind" />
-  <img src="./profile/icons/postgresql.svg" alt="PostgreSQL" />
-  <img src="./profile/icons/redis.svg" alt="Redis" />
-  <img src="./profile/icons/docker.svg" alt="Docker" />
+  <img src="./profile/badges/snake.svg" alt="Snake" />
+  <img src="./profile/badges/candles.svg" alt="Candles" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
+
+<details>
+  <summary><b>$ cat ./full-stack.json</b></summary>
+
+```json
+{
+  "languages": ["C#", ".NET 8", "Python", "FastAPI", "React"],
+  "frameworks": ["MassTransit", "SignalR"],
+  "tools": ["Docker", "Kubernetes", "Git"],
+  "databases": ["PostgreSQL", "Redis"],
+  "platform": "1C:Enterprise"
+}
+</details>
+
+<p align="center">
+  <img src="./profile/snake.svg" />
 </p>
 
 <p align="center">
