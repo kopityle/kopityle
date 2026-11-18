@@ -13,8 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: mkdir -p profile
-      - run: curl -fsSL "https://vercel.app" -o profile/banner.svg
-      - run: curl -fsSL "https://skillicons.dev" -o profile/skills.svg
+      - run: |
+    curl -fsSL -A "Mozilla/5.0" https://vercel.app -o profile/banner.svg
+      - run: |
+    curl -fsSL -A "Mozilla/5.0" https://skillicons.dev -o profile/skills.svg || curl -fsSL -A "Mozilla/5.0" https://vercel.app?format=svg -o profile/skills.svg
       - uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs

@@ -1,22 +1,4 @@
-<align="center">
-  <a href="https://github.com">
-    <img src="https://demolab.com" alt="Typing SVG" />
-  </a>
-</align>
-
-### Profile images
-
-<p align="center">
-  <img src="./profile/banner.svg" alt="Banner" />
-</p>
-
-<p align="center">
-  <img src="./profile/skills.svg" alt="Skills" />
-</p>
-
-<p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" />
-</p>
+<div align="center"><img src="./profile/banner.svg" /></div>
 
 ### `$ cat ./about.md`
 
@@ -36,29 +18,17 @@
 | **[LunaTracker](https://github.com/LunaTracker)** | Приложение для трекинга цикла с аналитикой фаз и ИИ-рекомендациями | `TypeScript` `React 18` `Vite` `Tailwind` |
 | **[conundrum_react](https://github.com)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
 | **[neomarket](https://github.com/neomarket)** | Микросервисный маркетплейс на Python | `Python` `FastAPI` `Microservices` |
+| **[1c-code-console](https://github.com)** | Двухрежимная консоль кода 1С/BSL | `Bash` `1C` `BSL` |
 
 ---
 
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="./assets/csharp.svg" alt="CSharp" />
-  <img src="./assets/dotnet.svg" alt="Dotnet" />
-  <img src="./assets/python.svg" alt="Python" />
-  <img src="./assets/typescript.svg" alt="TypeScript" />
-  <img src="./assets/javascript.svg" alt="JavaScript" />
-  <img src="./assets/react.svg" alt="React" />
-  <img src="./assets/fastapi.svg" alt="FastAPI" />
-  <img src="./assets/ollama.svg" alt="Ollama" />
-  <img src="./assets/chromadb.svg" alt="ChromaDB" />
-  <img src="./assets/redis.svg" alt="Redis" />
-  <img src="./assets/docker.svg" alt="Docker" />
+  <img src="./profile/skills.svg" alt="Skills" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="./assets/typing.svg" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="./assets/typing.svg" alt="Contribution Graph" />
+  <img src="./vercel.app" alt="Top Languages" />
 </p>
