@@ -16,7 +16,7 @@
 | **[HabitForge](https://github.com/kopityle/HabitForge)** | Микросервисная платформа отслеживания привычек с распределёнными семафорами и событиями | `C#` `.NET 8` `Redis` `MassTransit` |
 | **[JustAsk](https://github.com/kopityle/JustAsk)** | Локальный ИИ-наставник по учебному курсу с гибридным поиском и цитированием источников (LTI 1.1 / Moodle) | `Python` `FastAPI` `Ollama` `ChromaDB` |
 | **[LunaTracker](https://github.com/kopityle/LunaTracker)** | Приложение для трекинга цикла с аналитикой фаз и ИИ-рекомендациями | `TypeScript` `React 18` `Vite` `Tailwind` |
-| **[conundrum_react](https://github.com/kopityle/conundrum_react)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
+| **[conundrum_react](https://github.com/progrjava/conundrum_react)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
 | **[neomarket](https://github.com/kopityle/neomarket)** | Микросервисный маркетплейс на Python | `Python` `FastAPI` `Microservices` |
 | **[1c-code-console](https://github.com/kopityle/1c-code-console)** | Двухрежимная консоль кода 1С/BSL | `Bash` `1C` `BSL` |
 
