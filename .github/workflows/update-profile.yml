@@ -39,8 +39,9 @@ jobs:
           </svg>
           EOF
 
+          BASE="https://://githubusercontent.com"
           for icon in csharp dotnetcore python fastapi typescript react vitejs tailwindcss postgresql redis docker; do
-            curl -fsSL -o profile/icons/${icon}.svg "https://githubusercontent.com/${icon}/${icon}-original.svg"
+            curl -fsSL "$BASE/$icon/$icon-original.svg" -o "profile/icons/$icon.svg" || true
           done
 
       - name: Generate snake SVG
@@ -52,9 +53,8 @@ jobs:
       - name: Generate stats SVG
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: kopityle
           card: stats
-          options: show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117
+          options: username=kopityle&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117
           path: profile/stats.svg
 
       - name: Generate top languages card

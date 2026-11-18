@@ -38,7 +38,6 @@
   <img src="./profile/icons/docker.svg" alt="Docker" width="36" height="36" />
   <img src="./profile/stats.svg" alt="Stats" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
-  <img src="./profile/snake.svg" alt="Snake" />
 </p>
 
 <details>
@@ -53,6 +52,10 @@
   "platform": "1C:Enterprise"
 }
 </details>
+
+<p align="center">
+  <img src="./profile/snake.svg" />
+</p>
 
 <p align="center">
   <img src="./vercel.app" alt="Top Languages" />
