@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Generate typing SVG and download devicons
         run: |
@@ -40,7 +40,7 @@ jobs:
           EOF
 
           for icon in csharp dotnetcore python fastapi typescript react vitejs tailwindcss postgresql redis docker; do
-            curl -fsSL -o profile/icons/${icon}.svg "https://githubusercontent.com{icon}/${icon}-original.svg"
+            curl -fsSL -o profile/icons/${icon}.svg "https://githubusercontent.com/${icon}/${icon}-original.svg"
           done
 
       - name: Generate snake SVG
@@ -49,17 +49,20 @@ jobs:
           github_user_name: kopityle
           outputs: profile/snake.svg?palette=github-dark
 
-      - name: Generate candles SVG
-        uses: b1337xyz/github-candles@main
-        continue-on-error: true
+      - name: Generate stats SVG
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          username: kopityle
+          card: stats
+          options: show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117
+          path: profile/stats.svg
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=kopityle&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117
+          options: username=kopityle&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push profile assets
         run: |
