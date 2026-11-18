@@ -1,8 +1,8 @@
-<div align="center">
+<align="center">
   <a href="https://github.com">
     <img src="https://demolab.com" alt="Typing SVG" />
   </a>
-</div>
+</align>
 
 ### `$ cat ./about.md`
 
@@ -28,23 +28,23 @@
 ### `$ echo $TECH_STACK`
 
 <p>
-  <img src="https://shields.io" alt="CSharp" />
-  <img src="https://shields.io" alt="Dotnet" />
-  <img src="https://shields.io" alt="Python" />
-  <img src="https://shields.io" alt="TypeScript" />
-  <img src="https://shields.io" alt="JavaScript" />
-  <img src="https://shields.io" alt="React" />
-  <img src="https://shields.io" alt="FastAPI" />
-  <img src="https://shields.io" alt="Ollama" />
-  <img src="https://shields.io" alt "ChromaDB" />
-  <img src="https://shields.io" alt="Redis" />
-  <img src="https://shields.io" alt="Docker" />
+  <img src="./assets/csharp.svg" alt="CSharp" />
+  <img src="./assets/dotnet.svg" alt="Dotnet" />
+  <img src="./assets/python.svg" alt="Python" />
+  <img src="./assets/typescript.svg" alt="TypeScript" />
+  <img src="./assets/javascript.svg" alt="JavaScript" />
+  <img src="./assets/react.svg" alt="React" />
+  <img src="./assets/fastapi.svg" alt="FastAPI" />
+  <img src="./assets/ollama.svg" alt="Ollama" />
+  <img src="./assets/chromadb.svg" alt="ChromaDB" />
+  <img src="./assets/redis.svg" alt="Redis" />
+  <img src="./assets/docker.svg" alt="Docker" />
 </p>
 
 <p align="center">
-  <img src="https://vercel.app" alt="Top Languages" />
+  <img src="./assets/typing.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://vercel.app" alt="Contribution Graph" />
+  <img src="./assets/typing.svg" alt="Contribution Graph" />
 </p>
