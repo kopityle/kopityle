@@ -4,6 +4,20 @@
   </a>
 </align>
 
+### Profile images
+
+<p align="center">
+  <img src="./profile/banner.svg" alt="Banner" />
+</p>
+
+<p align="center">
+  <img src="./profile/skills.svg" alt="Skills" />
+</p>
+
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
+
 ### `$ cat ./about.md`
 
 Разрабатываю бэкенд-сервисы, микросервисную архитектуру, веб-приложения и локальные RAG-системы. Люблю разбираться, как всё устроено под капотом, автоматизировать рутину через CLI и настраивать рабочее окружение под себя.
