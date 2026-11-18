@@ -8,9 +8,11 @@ Welcome to my GitHub showcase! This repository contains a curated list of my pro
 |------------|-------------|--------|
 | **1c-pharmacy-accounting** | Система учёта в аптеке на 1С:Предприятие 8.3 с подбором аналогов, контролем рецептов и анализом продаж. Извлечено из `.dt` дампа Telegram-бота. | `1C` `BSL` `1c-enterprise` `erp` |
 | **1c-code-console** | 1C:Enterprise code console and utilities | `1C` `BSL` |
-| **ai_tutor** | AI-powered tutoring system with path dashboard | `Python` `FastAPI` |
+| **HabitForge** | Приложение для привычек и трекинга привычек | `Python` `FastAPI` |
+| **JustAsk** | Система вопросов-ответов и поддержки | `Node.js` `Express` |
+| **LunaTracker** | Трекер menstrual cycle и स्वास्थ्य | `React` `TypeScript` |
 | **neomarket** | E-commerce platform with protocols and microservices | `Node.js` `Go` |
-| **luna-cycle-tracker** | Menstrual cycle tracking application | `React` `TypeScript` |
+| **conundrum_react** | React-приложение для головоломок и квестов | `React` `Vite` |
 
 ---
 
