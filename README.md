@@ -1,41 +1,50 @@
-# Привет! Я Виктория Пестова 👋
+<div align="center">
+  <a href="https://github.com">
+    <img src="https://demolab.com" alt="Typing SVG" />
+  </a>
+</div>
 
-Backend & Fullstack разработчик (Python, TypeScript, React, RAG/AI).
+### `$ cat ./about.md`
 
-## Мои главные проекты
+Разрабатываю бэкенд-сервисы, микросервисную архитектуру, веб-приложения и локальные RAG-системы. Люблю разбираться, как всё устроено под капотом, автоматизировать рутину через CLI и настраивать рабочее окружение под себя.
 
-- **[JustAsk](https://github.com/kopityle/JustAsk)** — локальный ИИ-наставник по учебному курсу с поиском по материалам и цитированием источников (Python, FastAPI, Ollama, ChromaDB, RAG).
-- **[LunaTracker](https://github.com/kopityle/LunaTracker)** — приложение для отслеживания цикла с аналитикой и ИИ-рекомендациями (TypeScript, React, Vite, Tailwind CSS, Google Gemini API).
-- **[conundrum_react](https://github.com)** — интерактивное веб‑приложение на React (JavaScript).
-- **[neomarket](https://github.com/kopityle/neomarket)** — микросервисный маркетплейс на Python (FastAPI, e‑commerce, microservices).
-
-## Стек технологий
-
-### Back‑end
-- **Languages:** Python 3.10+
-- **Frameworks:** FastAPI, Flask (legacy), Django (учебные проекты)
-- **Databases:** PostgreSQL, Redis (kVStore), SQLite (тесты)
-- **RAG / AI:** Ollama (Llama 3.2 3B / Qwen 2.5), ChromaDB (hybrid search), PyMuPDF (извлечение текста)
-
-### Front‑end
-- **Languages:** TypeScript, JavaScript, HTML, CSS
-- **Frameworks:** React 18, React Hooks
-- **Build tools:** Vite, npm / yarn
-- **Styling:** Tailwind CSS, Lucide React (иконки)
-- **Animations:** Motion (фрейм‑му движок)
-
-### AI & RAG
-- **LLM runtimes:** Ollama (локальный запуск моделей)
-- **Embedding models:** Ollama `nomic-embed-text`, OpenAI embeddings
-- **Vector stores:** ChromaDB
-
-### Инструменты и DevOps
-- **Контейнеризация:** Docker (локальные демоны Ollama, FastAPI‑сервисы)
-- **CI/CD:** GitHub Actions (тесты, lint, деплой)
-- **Версионирование:** Git, GitHub (private/public репозитории)
-- **Отладка:** VS Code, Postman (API‑тесты), Chrome DevTools
-
-### Дополнительно
-- **LTI 1.1 интеграция:** Moodle (elearn.urfu.ru) — JustAsk
+- **Среда и инструменты:** `Zed` · `OpenCode` · `Git` · `Docker`
+- **Фокус:** микросервисы, архитектура API, интеграция LLM, поиск по документам (RAG) и современные веб-интерфейсы
 
 ---
+
+### `$ ls ./featured-projects`
+
+| Проект | Описание | Стек |
+| :--- | :--- | :--- |
+| **[HabitForge](https://github.com/HabitForge)** | Микросервисная платформа отслеживания привычек с распределёнными семафорами и событиями | `C#` `.NET 8` `Redis` `MassTransit` |
+| **[JustAsk](https://github.com/JustAsk)** | Локальный ИИ-наставник по учебному курсу с гибридным поиском и цитированием источников (LTI 1.1 / Moodle) | `Python` `FastAPI` `Ollama` `ChromaDB` |
+| **[LunaTracker](https://github.com/LunaTracker)** | Приложение для трекинга цикла с аналитикой фаз и ИИ-рекомендациями | `TypeScript` `React 18` `Vite` `Tailwind` |
+| **[conundrum_react](https://github.com)** | Интерактивное веб-приложение на React | `JavaScript` `React` |
+| **[neomarket](https://github.com/neomarket)** | Микросервисный маркетплейс на Python | `Python` `FastAPI` `Microservices` |
+
+---
+
+### `$ echo $TECH_STACK`
+
+<p>
+  <img src="https://shields.io" alt="CSharp" />
+  <img src="https://shields.io" alt="Dotnet" />
+  <img src="https://shields.io" alt="Python" />
+  <img src="https://shields.io" alt="TypeScript" />
+  <img src="https://shields.io" alt="JavaScript" />
+  <img src="https://shields.io" alt="React" />
+  <img src="https://shields.io" alt="FastAPI" />
+  <img src="https://shields.io" alt="Ollama" />
+  <img src="https://shields.io" alt "ChromaDB" />
+  <img src="https://shields.io" alt="Redis" />
+  <img src="https://shields.io" alt="Docker" />
+</p>
+
+<p align="center">
+  <img src="https://vercel.app" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://vercel.app" alt="Contribution Graph" />
+</p>
