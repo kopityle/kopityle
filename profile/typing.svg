@@ -13,7 +13,7 @@
       100% { opacity: 0; }
     }
   </style>
-  <text x="50%" y="30" text-anchor="middle" class="text line l1">> whoami: Виктория Пестова · Backend & Fullstack</text>
+  <text x="50%" y="30" text-anchor="middle" class="text line l1">> whoami: Виктория Пестова · Fullstack</text>
   <text x="50%" y="30" text-anchor="middle" class="text line l2">> stack: C# · .NET 8 · Python · FastAPI · React</text>
   <text x="50%" y="30" text-anchor="middle" class="text line l3">> focus: Microservices · Local RAG · 1C DevTools</text>
 </svg>
